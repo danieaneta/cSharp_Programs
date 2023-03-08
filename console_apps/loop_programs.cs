@@ -6,6 +6,18 @@ public class oneToTen {
 }
 
 
+public class naturalSum {
+    public static void main (String []args) {
+        int sum = 0;
+        //init sum first in sum = 0 in order to access it within for loop
+        for(int i = 1; i <= 10; i++) {
+            sum += i;
+        }
+        System.out.println("Sum: " + sum);
+    }
+}
+
+
 public class Nested {
     public static void main(String []args) {
         for (int i = 1; i <= 3; i++) {
